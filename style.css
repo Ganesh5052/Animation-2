@@ -1,0 +1,17 @@
+img{
+    width: 150px;
+    height: 150px;
+}
+div{
+/*    background-color: antiquewhite;*/
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes anime{
+    30%{background-color: bisque; padding: 50px; left: 0px;top: 0px;}
+    60%{background-color: blue; padding: 50px; left: 200px;top: 200px;}
+    50%{background-color: blueviolet; padding: 50px;left: 200px;top: 0px;}
+    90%{background-color: brown; padding: 50px;left: 0px;top: 0px;}
+}
